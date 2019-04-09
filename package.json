@@ -30,7 +30,7 @@
     },
     "dependencies": {
         "vue": "^2.6.10",
-        "vue-ads-context": "^0.2.1"
+        "vue-ads-context": "^0.2.3"
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "*",
