@@ -1,4 +1,4 @@
-# vue-ads-info
+# vue-ads-popover
 
 ## Project setup
 ```

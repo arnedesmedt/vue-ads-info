@@ -1,25 +1,25 @@
 {
     "private": false,
-    "name": "vue-ads-info",
-    "description": "A Vue info component to show some additional info.",
+    "name": "vue-ads-popover",
+    "description": "A Vue popover component to show some additional info.",
     "license": "MIT",
     "author": "Arne De Smedt <arnedesmdt@gmail.com> (https://twitter.com/ArneSmedt)",
-    "homepage": "https://github.com/arnedesmedt/vue-ads-info",
+    "homepage": "https://github.com/arnedesmedt/vue-ads-popover",
     "repository": {
         "type": "git",
-        "url": "https://github.com/arnedesmedt/vue-ads-info.git"
+        "url": "https://github.com/arnedesmedt/vue-ads-popover.git"
     },
     "bugs": {
-        "url": "https://github.com/arnedesmedt/vue-ads-info/issues"
+        "url": "https://github.com/arnedesmedt/vue-ads-popover/issues"
     },
     "version": "0.0.1",
-    "main": "./dist/vue-ads-info.common.js",
+    "main": "./dist/vue-ads-popover.common.js",
     "files": [
         "/dist"
     ],
     "scripts": {
         "build": "vue-cli-service build",
-        "build:bundle": "vue-cli-service build --target lib --name vue-ads-info ./src/index.js",
+        "build:bundle": "vue-cli-service build --target lib --name vue-ads-popover ./src/index.js",
         "lint": "vue-cli-service lint",
         "package-lint": "prettier-package-json --write --tab-width=4 ./package.json",
         "serve": "vue-cli-service serve",
